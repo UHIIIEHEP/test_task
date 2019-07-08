@@ -148,3 +148,6 @@ body {
     color: #f5f8fc; }
   .selector.selected {
     color: #df8686; }
+
+.text {
+  text-align: center; }
