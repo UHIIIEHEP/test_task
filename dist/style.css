@@ -63,7 +63,6 @@ body {
   min-width: 810px;
   z-index: 100; }
   .page_close {
-    visibility: hidden;
     display: none; }
   .page__moduleOut {
     left: 50%;
@@ -73,7 +72,7 @@ body {
 
 .overlay {
   position: absolute;
-  display: inline;
+  display: inline-block;
   width: 100%;
   height: 100%;
   opacity: 0.5;
@@ -81,7 +80,7 @@ body {
 
 .moduleOut {
   position: absolute;
-  display: inline;
+  display: inline-block;
   max-height: 100%;
   border-radius: 5px;
   background-color: #a69f9f; }
